@@ -1,20 +1,25 @@
-var express = require('express');
-var app = express();
+'use strict';
+/**
+ * @file
+ * Сервер приложения. Основан на примере для Heroku
+ */
+const express = require('express');
 
-app.set('port', (process.env.PORT || 5000));
+const app = express();
 
-app.use(express.static(__dirname + '/public'));
+app.set('port', process.env.PORT || 5000);
 
-// views is directory for all template files
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
+app.use(express.static(__dirname + '/public'));
+
 app.get('/', function(request, response) {
-  response.render('pages/index');
+  console.time('render');
+  response.render('index', { result: 5 * 5 });
+  console.timeEnd('render');
 });
 
 app.listen(app.get('port'), function() {
-  console.log('Node app is running on port', app.get('port'));
+  console.log('Cool faces on port', app.get('port'));
 });
-
-
