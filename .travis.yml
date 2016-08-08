@@ -2,5 +2,7 @@ language: node_js
 node_js:
 - '6'
 deploy:
+  provider: heroku
+  app: pacific-peak-12705
   api_key:
-    secure: ffNgFyfy2NcLNi+wGwC6gy7LWncFk7+wqv6WmmHSMqZpxn/IFA2sObDpsQkE+8lzruGJP93aFbntCO3yfXBaXeU4iFFSeThePTFSwumyhTavaWZIN0+ziWqole+LjcOGPqJ2/MiiOH15UEgiRprAeRzpBam4SLP1OGs12AT2MEA=
+    secure: rKWJzSIKJyPMdkx5TvAsq95jSbAEFVNMwZ7F/Hk+wE+bGcN2AetN5JTmUdRi87f5qgGk2yWPm17qoEVSI04brsMqlPSAw362TkayNIg0TEN09HYT8HRG4G8ZcVll157Cz9J4nE2p6jjLMm73HDyExhwsor/D9QliLo7lqQLprDcN49M84Vhg5+1NxbJ5zrRtDGRARc4Sqe+CFY0QtPxA3fwjLslf7lyzl5ntYScYj2No+uW8cy6xE/XsRfDxXF/N3koAZEDJGavLlwK82JLpSI9/Zw5a9jARAYp9uDCr4dX02gLdhQ9S0d03VawSQ+GdC/x5wvcY/8C7FFA1a2r2lxzI+uJhEkqpgupGtm48yIwp2VQHtgtMhGIbZznrETfh7jTkKYkoJo7Psej7dAQASOsTg8AbF2/m+9NmEb80E8d+6jRs86RMoQ+f73zb0kF5GQi79XR+9jP/Oude+T7B7oZlvh+PXys0+CKK9rK7zoIRrEAlLa3CVmVyQ/tMa6jhze1kA1y9erlpax8aSHcHSHys3c8nvvj64jrqqpE8lFAQ8pX/+fuZNWXYGgyqQck4FZsmJcQ7+1A7HVaYKw9YGGCceInLsy+SJDsP3Z/Xpk14KOLJNwWQW79Pf3a0ktfh97+pfxYhEPcGvHKbAFbpL180xNadEoDI8yd5HDxEY6U=
