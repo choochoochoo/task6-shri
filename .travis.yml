@@ -1,0 +1,6 @@
+language: node_js
+node_js:
+- '6'
+deploy:
+  api_key:
+    secure: ffNgFyfy2NcLNi+wGwC6gy7LWncFk7+wqv6WmmHSMqZpxn/IFA2sObDpsQkE+8lzruGJP93aFbntCO3yfXBaXeU4iFFSeThePTFSwumyhTavaWZIN0+ziWqole+LjcOGPqJ2/MiiOH15UEgiRprAeRzpBam4SLP1OGs12AT2MEA=
