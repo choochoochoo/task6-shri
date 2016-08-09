@@ -1,8 +1,6 @@
 {
-  "name": "Node.js Getting Started",
-  "description": "A barebones Node.js app using Express 4",
-  "repository": "https://github.com/heroku/node-js-getting-started",
-  "logo": "http://node-js-sample.herokuapp.com/node.svg",
-  "keywords": ["node", "express", "static"],
-  "image": "heroku/nodejs"
+  "name": "task6-shri",
+  "description": "A sample project with continues integration",
+  "repository": "https://github.com/choochoochoo/task6-shri.git",
+  "keywords": ["node", "express", "static", "Travis", "GitHub", "ESLint", "Heroku", "BitHound", "UptimeRobot"]
 }
