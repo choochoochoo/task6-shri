@@ -29,7 +29,6 @@
     "heroku",
     "express"
   ],
-  "license": "MIT",
   "devDependencies": {
     "eslint": "^3.2.2",
     "jasmine": "^2.4.1"
