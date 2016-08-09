@@ -3,12 +3,12 @@
  * @file
  * Сервер приложения. Основан на примере для Heroku
  */
-const express = require('express');
-const app = express();
+var express = require('express');
+var app = express();
 
-const Calculator = require('./models/Calculator');
-const calculator = new Calculator();
-const message = 'Переданные аргументы некорректны';
+var Calculator = require('./models/Calculator');
+var calculator = new Calculator();
+var message = 'Переданные аргументы некорректны';
 
 app.set('port', process.env.PORT || 5000);
 

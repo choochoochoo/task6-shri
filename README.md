@@ -1,4 +1,4 @@
-# Задание на настройку инфраструктуры для проекта для ШРИ 2016
+# Задание на настройку инфраструктуры проекта для ШРИ 2016
 
 [![Build Status](https://travis-ci.org/choochoochoo/task6-shri.svg?branch=master)](https://travis-ci.org/choochoochoo/task6-shri)
 [![bitHound Overall Score](https://www.bithound.io/github/choochoochoo/task6-shri/badges/score.svg)](https://www.bithound.io/github/choochoochoo/task6-shri)
