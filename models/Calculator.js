@@ -1,5 +1,5 @@
 function Calculator() {
-    
+
 }
 
 Calculator.prototype.multiply = function (arg1, arg2) {
