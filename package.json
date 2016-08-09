@@ -1,7 +1,7 @@
 {
-  "name": "node-js-getting-started",
-  "version": "0.2.5",
-  "description": "A sample Node.js app using Express 4",
+  "name": "task6-shri",
+  "version": "0.0.1",
+  "description": "A sample project with continues integration",
   "engines": {
     "node": "5.9.1"
   },
@@ -16,8 +16,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-getting-started"
+    "url": "https://github.com/choochoochoo/task6-shri.git"
   },
+  "author": "Soloviev Dmitry <soloviev.dmitriy.serg@yandex.ru>",
+  "bugs": {
+    "url": "https://github.com/choochoochoo/task6-shri/issues"
+  },
+  "homepage": "https://github.com/choochoochoo/task6-shri",
+  "license": "UNLICENSED",
   "keywords": [
     "node",
     "heroku",
