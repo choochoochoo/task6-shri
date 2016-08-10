@@ -45,3 +45,7 @@ npm зависимости, для ruby on rails gem и т.д.
 * Количество времени потраченное на proxying межде сервером и клиентом service=4ms
 * Статус ( status=200 )
 * Количество байт переданных клиенту bytes=805
+
+### Uptimerbot - chart
+
+![Alt text](img/uptime.png "Uptimerbot chart")
