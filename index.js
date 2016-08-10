@@ -37,8 +37,7 @@ app.get('/', function (request, response) {
         // Проверим корректность
         if(isNaN(arg1) || isNaN(arg2)){
             console.log(message);
-            response.render('index', {result: message});
-            return;
+            throw new Error(message);
         }
     }
     catch (exception) {
